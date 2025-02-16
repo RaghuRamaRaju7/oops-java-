@@ -5,6 +5,9 @@ class Chaishop{
     public void Classfunc(String s){
         System.out.println("Welcome to TT shop"+ " " +s);
     }
+    public void Number(int id){
+        System.out.println("number of cups sold"+" "+id);
+    }
 }
 public class Main {
        public static void main(String[] args) {
@@ -16,6 +19,8 @@ public class Main {
         System.out.println(branch1.CupsSold); 
         String str="hi";
         branch1.Classfunc(str);
+        int i=7;
+        branch1.Number(i);
 
 
         Chaishop branch2= new Chaishop();
